@@ -56,6 +56,11 @@ a {
     object-fit: contain;
     border-radius: 5px;
     margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+#pum:hover{
+    transform: scale(1.1);
 }
 
 .ropaTitulo{
@@ -80,20 +85,6 @@ a {
     justify-content: space-evenly;
     font-weight: bold;
     margin-bottom: 40px;
-}
-
-.ropaBtn{
-    display: inline-block;
-    padding: 7px 10px;
-    background-color: rgb(186, 130, 238);
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 15px;
-    border: none;
 }
 
 .ropaSale{
